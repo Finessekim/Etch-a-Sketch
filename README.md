@@ -1,1 +1,1 @@
-# Etch-a-Sketch
+# Etch-a-Sketch project in js to sharpen my skills

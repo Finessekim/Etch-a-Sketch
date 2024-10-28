@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 960px;
+}
+
+.square {
+    width: calc(100%/16);
+    height: calc(100%/16);
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.square :hover {
+    background-color: green;
+}
+
+button {
+    margin-left: 64px;
+    padding: 10px;
+    font-size: 32px;
+    background-color: aqua;
+    border-radius: 12px;
+}
